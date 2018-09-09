@@ -1,0 +1,101 @@
+#choosable-List {
+	padding-top: 15px;
+}
+
+#choosable-List .box {
+	margin: 0 15px 0 15px;
+}
+
+.publicBox {
+	background-color: #fff;
+	padding: 5px 10px;
+	position: relative;
+}
+
+.publicBox .button {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	z-index: 1000;
+}
+
+
+.publicBox .button .item li{
+	padding: 0 10px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 6px;
+	margin-top: 5px;
+	color: #fff;
+}
+
+.publicBox .button .item li:nth-of-type(odd){
+	background-color: #04BE02;
+}
+
+.publicBox .button .item li:nth-of-type(even){
+	background-color: #f00;
+}
+
+.publicBox .listBox {
+	width: 100%;
+}
+
+.publicBox .listBox .text {
+	display: flex;
+	line-height: 30px;
+	font-size: 12px;
+	display: flex;
+}
+
+.publicBox .listBox .text .zheng_box {
+	margin-left: 4px;
+}
+
+.publicBox .listBox .text .zheng_box i {
+	color: #f00;
+	outline: 1px solid #f00;
+	margin-right: 4px;
+}
+
+.publicBox .listBox .text .title {
+	margin-right: 10px;
+}
+
+.publicBox .listBox .text .renzheng span {
+	border: 1px solid #F88F19;
+	padding: 0 5px;
+	color: #F88F19;
+}
+
+.publicBox .listBox .text .renzheng span i {
+	margin-right: 5px;
+	color: #F88F19;
+}
+
+.publicBox .listBox .text .renzheng span.false {
+	border: 1px solid #f00;
+	color: #f00;
+}
+
+.publicBox .listBox .text .renzheng span.false i {
+	color: #f00;
+}
+
+.publicBox .listBox .text .renzheng span.succee {
+	border: 1px solid #32C862;
+	color: #32C862;
+}
+
+.publicBox .listBox .text .renzheng span.succee i {
+	color: #32C862;
+}
+
+.publicBox .listBox .text .renzheng span.none {
+	border: 1px solid grey;
+	color: grey;
+}
+
+.publicBox .listBox .text .renzheng span.none i {
+	color: grey;
+}

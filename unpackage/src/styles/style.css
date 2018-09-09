@@ -1,0 +1,112 @@
+.form-control {
+    display: block;
+    width: 70%;
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.labelBox .yd-cell-right{
+  justify-content:flex-start;
+} 
+.yd-cell-right span{
+  width:100%;
+}
+.yd-cell-right select{
+  width:88%;
+  margin-left:.1rem;
+  height:.5rem;
+}
+.yd-scrollview:after{
+  display:none;
+}
+/*choosable-List 所有使用yd-cell的列表页外部统一用ID为：choosable-List的元素包裹  */
+#choosable-List{
+  white-space: normal;
+  word-break: break-all;
+} 
+ #choosable-List .yd-cell-box .yd-cell .yd-cell-item .yd-cell-left{
+     flex:7;
+}
+ #choosable-List .yd-cell{
+  border-radius: 15px;
+ }
+ #choosable-List .yd-cell-box .yd-cell::after{
+    display: none ;
+ }
+ .yd-tabbar{
+ 	border-top: 1px solid #e6e6e6;
+ }
+.yd-radio-text{
+  font-size:0.26rem;
+  color:#333;
+}
+/* 与验证input统一样式的input */
+.wrapBox{
+  display:inline-block;
+  padding-top:10px;
+  width:100%;
+  padding-bottom:5px;
+  border-bottom:1px solid #ccc;
+}
+.Label{
+  display:inline-block;
+  position:relative;
+  padding:0 5px;
+  padding-left:15px;
+  color:#838383;
+  font-size:0.28rem;
+  font-weight:700;
+  text-align:left;
+
+}
+
+.Label i{
+	color: #f00;
+	vertical-align: sub;
+	margin-right: 5px;
+}
+.labelBox{
+  background:#fff;
+  padding:0;
+  border-bottom:1px solid #ccc;
+}
+.labelBox .Label{
+  min-width:100px;
+}
+.labelBox .yd-textarea{
+  padding:0;
+  padding-top:0.07rem;
+  height:1.5rem;
+}
+.labelBox .yd-textarea>textarea{
+  height:60%;
+  overflow:hidden;
+}
+.in {
+  width:65%;
+  border:none;
+  border-radius: 5px;
+  text-indent: 5px;
+  outline: none;
+  height: 0.6rem;
+  font-size:0.27rem;
+  caret-color: green;
+  color:#777777;
+  line-height:0.6rem;
+}
+/* 菜单搜索样式 */
+#Menus .yd-accordion-head-content .yd-accordion-title{
+    width:100%;
+}
+.yd-backtop{
+  bottom:10%;
+}
+.yd-flexview{
+  min-width: 0;
+}

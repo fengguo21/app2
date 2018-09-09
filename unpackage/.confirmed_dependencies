@@ -1,0 +1,21 @@
+{
+  "dist/index.html": {
+    "resources": [
+      "dist/main.f6e9b46539bb46886cc3.js",
+      "dist/vendors.f6e9b46539bb46886cc3.js",
+      "dist/vendors.51dfbbf01ffe11cc18bc.js",
+      "dist/vendors.9e82fa98e1827db9570d.js",
+      "dist/vendors.367bdcc938a53d071b95.js",
+      "dist/main.367bdcc938a53d071b95.js",
+      "dist/vendors.f79236fab5b416adfb07.js",
+      "dist/vendors.74590c01367f6b83de2f.js",
+      "dist/vendors.6a693d438a1c12d25f49.js",
+      "dist/vendors.9db5ecd7dbbaff003c98.js",
+      "dist/main.9db5ecd7dbbaff003c98.js",
+      "dist/vendors.eff2057b6be43c32a0be.js",
+      "dist/vendors.5c9947a6b8ee142fc7db.js",
+      "dist/vendors.1d8f0754466146d76f80.js"
+    ],
+    "refer": []
+  }
+}
